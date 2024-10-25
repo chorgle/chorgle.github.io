@@ -1,0 +1,7 @@
+h2 {
+  text-align: center;  
+}
+
+td, tr, th {
+    border: 2px solid black;
+}
