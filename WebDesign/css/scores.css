@@ -4,6 +4,7 @@ h2 {
 
 td, tr, th {
     border: 2px solid black;
+    padding: 8px;
 }
 
 table {
