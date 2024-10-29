@@ -3,6 +3,8 @@ li {
 }
 
 img {
-    border: gold;
-    padding: 2px;
+    border: solid;
+    padding: 5px;
+    height: 50%;
+    width: 50%;
 }
