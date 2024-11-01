@@ -23,7 +23,7 @@
              border-image-slice: 50;
         }
         div#dino {
-             -webkit-filter: drop-shadow(10px, 15px, 15px, black);
+             filter: drop-shadow(-5px -5px 5px #000000);
              filter: hue-rotate(90deg);
         }
         div#seagull {
@@ -39,14 +39,17 @@
              height: 243px;
         }
        div#theater {
-             filter: blur(3px);
-             text-shadow: 5px 5px 5px black;
-             background-image: url(Images/imitation/theater_stage.jpg);
              width: 400px;
              height: 352px;
+       }
+      img#theaterimg {
+             filter: blur(3px);
+      }
+      p {
              text-align: center;
              vertical-align: middle;
-       }
+             text-shadow: 5px 5px 5px black;
+      }
      </style>
      <div id="penguins"><img src="Images/imitation/penguins.jpg"></div>
      <div id="footballttt"><img src="Images/imitation/football_field.jpg"></div>
@@ -54,6 +57,6 @@
      <div id="seagull"><img src="Images/imitation/seagull.png"></div>
      <br/>
      <div id="butterfly"><img src="Images/imitation/butterfly.jpg"></div>
-     <div id="theater"><p>Presenting</p></div>
+     <div id="theater"><img id="theaterimg" src="Images/imitation/theater_stage.jpg"><p>Presenting</p></div>
  </body>
  </html>
