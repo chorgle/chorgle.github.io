@@ -40,18 +40,19 @@
              background-image: url(Images/imitation/butterfly.jpg);
         }
         div.theater {
-             background-image: url(Images/imitation/theater_stage.jpg);
-             filter: blur(3px);
              width: 400px;
              height: 352px;
         }
+        img.theater {
+             filter: blur(3px);
+        }
         p.theater {
-             text-align: center;
-             vertical-align: middle;
              text-shadow: 5px 5px 5px black;
              color: white;
              font-size: 20px;
-             filter: blur(0px);
+             position: absolute;
+             top: 87.5%;
+             left: 12.5%;
         }
      </style>
      <div id="penguins"><img src=""></div>
@@ -59,7 +60,7 @@
      <div id="dino"><img src="Images/imitation/dinosaur.png"></div>
      <div id="seagull"><img src="Images/imitation/seagull.png"></div>
      <br/>
-     <div id="butterfly"><img src=""></div>
+     <div id="butterfly"><img src="Images/imitation/theater_stage.jpg"></div>
      <br/>
      <div class="theater"><p>Presenting</p><img src=""></div>
  </body>
