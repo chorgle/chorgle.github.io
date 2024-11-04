@@ -42,16 +42,19 @@
        img#theaterimg {
              filter: blur(3px);
        }
-        div#theater {
+        div.theater {
              width: 400px;
              height: 352px;
              text-align: center;
-             vertical-align: middle;
+             vertical-align: middle;         
+        }
+       p.theater {
              text-shadow: 5px 5px 5px black;
              color: white;
-             position: relative;
-             
-        }
+             position: absolute;
+             top: 200px;
+             left: 176px;
+       }
      </style>
      <div id="penguins"><img src=""></div>
      <div id="footballttt"><img src="Images/imitation/football_field.jpg"></div>
@@ -60,6 +63,6 @@
      <br/>
      <div id="butterfly"><img src=""></div>
      <br/>
-     <div id="theater"><img id="theaterimg" src="Images/imitation/theater_stage.jpg"><p>Presenting</p></div>
+     <div class="theater"><img id="theaterimg" src="Images/imitation/theater_stage.jpg"><p>Presenting</p></div>
  </body>
  </html>
