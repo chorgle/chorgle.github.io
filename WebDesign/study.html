@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang=en-US>
+ <head>
+     <title>Psych Study Cards</title>
+     <meta charset="UTF 8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <body>
+    <style>
+        @keyframes titleanim {
+            0% {translate: 0%;}
+            80% {translate: 200%;}
+            100% {translate: 139%;}
+        }
+        div h2 {
+            height: 75px;
+            width: 400px;
+            position: relative;
+            animation-name: titleanim;
+            animation-duration: 2.5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        div.card {
+            height: 200px;
+            width: 500px;
+            border: solid black 1px;
+            padding: 5px;
+            margin: 5px;
+            transition: background-color 1s, color 1s;
+        }
+        div.card:hover {
+            background-color: black;
+            color: white;
+        }
+        p {
+            font-size: 18px;
+        }
+        p.answer {
+            color: white;
+        }
+    </style>
+     <div id="title"><h2>Psychology Study Cards</h2></div>
+     <p style="text-align: center;">Hover over each card to find the answer.</p>
+     <div class="card"><p class="question">Q: What is the Fundamental Attribution Error?</p><br/><p class="answer">A: Our tendency to blame outside factors for ourselves, while blaming inside factors for others.</p></div>
+     <div class="card"><p class="question">Q: What did Goffman theorize about how we act?</p><br/><p class="answer">A: We're always acting in the role we think we're supposed to be in; that you're never really your true self.</p></div>
+     <div class="card"><p class="question">Q: What is your Id?</p><br/><p class="answer">A: Our initial impulse or urge when we are making decisions, usually is irrational and aggresive.</p></div>
+     <div class="card"><p class="question">Q: When we are in like-minded groups, our beliefs tend to be</p><br/><p class="answer">A: Reinforced through Group Polarization.</p></div>
+     <div class="card"><p class="question">Q: What is bipolar disorder?</p><br/><p class="answer">A: Having very high highs and very low lows emotionally.</p></div>
+     <div class="card"><p class="question">Q: What is bipolar disorder commonly confused with?</p><br/><p class="answer">A: Borderline Personality Disorder (BPD).</p></div>
+     <div class="card"><p class="question">Q: When we feel uncomfortable about our behavior, we often change our attitudes to match our behavior, what is this called?</p><br/><p class="answer">A: Cognitive Dissonance.</p></div>
+     <div class="card"><p class="question">Q: What are the four steps of memory?</p><br/><p class="answer">A: Sensory, Short-Term, Long-Term, and Working memory.</p></div>
+ </body>
+ </html>
