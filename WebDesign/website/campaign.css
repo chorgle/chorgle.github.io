@@ -120,8 +120,5 @@ strong {
     text-align: center;
 }
 .project {
-    display: inline-block;
-    width: 33vw;
-    height: auto;
     margin: 3px;
 }
