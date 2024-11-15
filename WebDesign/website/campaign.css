@@ -118,6 +118,6 @@ strong {
 .project {
     display: inline-block;
     width: 31vw;
-    height: auto;
+    height: 50vh;
     margin: 3px;
 }
