@@ -120,5 +120,6 @@ strong {
     text-align: center;
 }
 .project {
+    display: grid;
     margin: 3px;
 }
